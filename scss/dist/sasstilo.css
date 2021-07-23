@@ -1,0 +1,290 @@
+/*VARIABLES*/
+/* TIPOS DE LETRAS */
+h1 {
+  /*Encabezado 1*/
+  color: #323534;
+  font-family: "Montserrat", sans-serif;
+  /* font-size: 30px;*/
+}
+
+h2 {
+  /*Encabezado 2*/
+  color: #049162;
+  font-family: "Montserrat", sans-serif;
+  /* font-size: 20px;*/
+}
+
+p {
+  /*Parrafos*/
+  color: #1d1c1c;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  text-align: justify;
+  padding: 10px;
+  margin: 10px;
+  /* display: flex;*/
+  border: 2px solid #0bbe74;
+}
+
+h3 {
+  /*Encabezado 3*/
+  color: #000000;
+  color: #17865c;
+  font-family: "Montserrat", sans-serif;
+  /*font-size: 18px;*/
+}
+
+h4 {
+  /*Encabezado 4*/
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*MENU DE NAVEGACION*/
+.logo {
+  width: 110px;
+  display: flex;
+  flex-flow: nowrap;
+  color: aqua;
+  order: -1;
+}
+
+header {
+  background-color: white;
+}
+
+/*Encabezado imagen*/
+.imagenEncabezado {
+  background-image: url("momo1.jpg");
+  background-size: auto;
+  background-position: center;
+  background-repeat: none;
+  font-size: 40px;
+  color: white;
+  height: 200px;
+  line-height: auto;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  vertical-align: middle;
+  text-shadow: black 0px 0px 20px;
+}
+
+.indexInformacion {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #086446;
+  justify-content: center;
+}
+
+.indexInformacion__bold {
+  /*negrita*/
+  font-weight: bold;
+}
+
+.grill {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  /*ancho*/
+  grid-template-rows: 2fr 1fr;
+  /*altp*/
+}
+
+.ul {
+  /*Lista*/
+  margin-left: 30px;
+  padding: 10px;
+  color: #2e2b2e;
+  list-style-image: url(asterisk.png);
+  list-style-position: inside;
+  font-family: "Roboto", sans-serif;
+}
+
+.Centro {
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.textoImagenCentro {
+  /*para imagene sy texto en centro*/
+  text-align: center;
+  justify-content: center;
+  display: block;
+  margin-right: 30px;
+  /* top , right bottom left*/
+  width: 80%;
+}
+
+/*NOSOTROS*/
+.nosotros {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: azure;
+  justify-content: center;
+}
+
+.tamonoNosotros {
+  width: auto;
+  color: white;
+  display: flex;
+}
+
+.menuFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.menuFlex_article {
+  background-color: black;
+  padding: 10px;
+  margin: 5px 5px;
+  width: 150px;
+}
+
+.menuFlex_article:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.tamanoDeTeam {
+  /*Imagenes del equipo*/
+  width: 150px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  display: inline;
+}
+
+.cajaFlex {
+  /*Estilos de flex: ;*/
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+  color: azure;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+.centro {
+  text-align: center;
+  justify-content: center;
+  display: block;
+  margin-right: 30px;
+  /* top , right bottom left*/
+  width: 80%;
+  animation-duration: 2s;
+  animation-name: aparecer;
+}
+
+.centro:hover {
+  height: 100px;
+}
+
+/*PORTAFOLIO*/
+.articleporta {
+  background-color: black;
+  border: 15px solid black;
+  width: 300px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  display: inline;
+}
+
+.articleBox {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+  color: azure;
+  justify-content: stretch;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  margin: 5px;
+}
+
+.articleporta:hover {
+  transform: scale(1.2, 1.2);
+}
+
+/*CONTACTO*/
+/*tamano google maps*/
+.tamanoCajaMaps {
+  width: 200px;
+  height: 350px;
+  display: inline;
+  position: relative;
+  left: 150px;
+  background-size: auto;
+}
+
+.tamanoForm {
+  /*tamano google maps*/
+  width: 510px;
+  height: 200px;
+  position: initial;
+  display: inline-block;
+}
+
+.italica {
+  /*italica*/
+  font-style: italic;
+}
+
+/*FOOTER*/
+.quieto {
+  align-self: flex-end;
+  position: sticky;
+  line-height: 1.5;
+  text-align: center;
+  width: 100%;
+  background-color: #000000;
+}
+
+.espaciado {
+  /* espaciado de MOMO footer*/
+  letter-spacing: 3px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.colorLetraFoo {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+h1 {
+  font: 3em;
+}
+
+h2 {
+  font: 1.5em;
+}
+
+h3 {
+  font: 1em;
+}
+
+h4 {
+  font: 0.75em;
+}
+
+/**/
+/*responsive*/
+/*tbleta*/
+@media (min-widht: 577px) and (max-width: 991px) {
+  body {
+    background-color: azure;
+  }
+}
+/*mobile*/
+@media (max-width: 576px) {
+  body {
+    background-color: white;
+  }
+}
